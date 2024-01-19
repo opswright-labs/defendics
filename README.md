@@ -6,7 +6,7 @@ Our belief is that this is a critical, but missing, capability for security misc
 
 The initial release includes the only known implementation of a CCSS (Common Configuration Scoring System) tool that is the implementation of the [proposed CCSS approach by NIST]("https://www.nist.gov/publications/common-configuration-scoring-system-ccss-metrics-software-security-configuration"). While we don't believe that this is any better than CVSS, it's one of the only quantifiable methods documented today. And this precisely is what we will be working on in future releases of defendixs.
 
-For information on how we are approaching this topic, check out the articles on security hardening at [opswright.com]("https://www.opswright.com/topic/security-hardening").
+For information on how we are approaching this topic, check out the articles on security hardening at [opswright.com](https://www.opswright.com/topic/security-hardening).
 
 **Other Useful Links**
 
