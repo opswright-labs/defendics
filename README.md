@@ -12,7 +12,7 @@ For information on how we are approaching this topic, check out the articles on 
 
 * [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening) at GitHub
 * [Awesome Industrial Control Systems Security](https://github.com/hslatman/awesome-industrial-control-system-security) at GitHub
-* [Cross-sector Cybersecurity Performance Goals (CPG)](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals)
+* [Cross-sector Cybersecurity Performance Goals (CPG)](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals) from CISA
 
 **Data Sources**
 
