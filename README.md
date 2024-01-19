@@ -6,7 +6,21 @@ Our belief is that this is a critical, but missing, capability for security misc
 
 The initial release includes the only known implementation of a CCSS (Common Configuration Scoring System) tool that is the implementation of the [proposed CCSS approach by NIST](https://www.nist.gov/publications/common-configuration-scoring-system-ccss-metrics-software-security-configuration). While we don't believe that this is any better than CVSS, it's one of the only quantifiable methods documented today. And this precisely is what we will be working on in future releases of defendics.
 
-For information on how we are approaching this topic, check out the articles on security hardening at [opswright.com](https://www.opswright.com/topic/security-hardening).
+For information on how we are approaching this topic, check out the articles on security hardening at [opswright.com](https://www.opswright.com/topic/security-hardening). The idea is to create a model for prioritization, similar to [EPSS](https://www.first.org/epss/) to establish control efficacy in a measurable and threat-informed way. We already use EPSS and KEV in our vulnerability prioritization, so a similar approach is attractive to us, yet we are in a feasibility analysis stage to determine if this is even realistic. 
+
+**EPSS Methodology**
+
+EPSS utilizes the following aspects, and these, along with other useful data mapping from industry, is what guides our efforts:
+
+*	Vendor (CPE, via NVD) - Identifies the vendor of the product affected by the vulnerability.
+* Age of the Vulnerability - Considers how long a vulnerability has been known since its publication in the MITRE CVE list.
+* References with Categorical Labels - Uses sources like the MITRE CVE List and NVD for detailed vulnerability descriptions.
+* Normalized Multiword Expressions - Extracts terms from the vulnerability description that help in understanding the vulnerability context.
+* Weakness in the Vulnerability (CWE) - Classifies the type of software weakness the vulnerability represents.
+* CVSS Metrics - Provides a standardized score to reflect the severity of the vulnerability.
+* CVE Discussion Lists/Websites - Tracks whether the vulnerability is being actively discussed in security communities or listed on key vulnerability sites.
+* Publicly Available Exploit Code - Indicates if exploit code is available in repositories like Exploit-DB, GitHub, or tools like MetaSploit.
+* Offensive Security Tools and Scanners - Lists tools that could potentially be used to exploit the vulnerability.
 
 **Other Useful Links**
 
