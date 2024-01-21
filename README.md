@@ -37,7 +37,7 @@ EPSS utilizes the following aspects, and these, along with other useful data map
 
 **Data Specifications**
 
-These are some of the structured data sources that we are getting into. We have a draft JSON specification that is aligned with all three standards and a working python script to ingest CCE templates into our format. This will be publicly released in the coming weeks.
+These are some of the structured data sources that we are getting into. 
 
 * https://csrc.nist.gov/projects/security-content-automation-protocol/specifications/xccdf
 * https://csrc.nist.gov/projects/security-content-automation-protocol/specifications/common-configuration-enumeration-cce
